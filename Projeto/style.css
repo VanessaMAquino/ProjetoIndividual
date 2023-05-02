@@ -8,57 +8,65 @@
 body {
     font-family: 'Open sans', sans-serif;
 }
+
+.tela {
+    background-image: url(./imagens/FUNDOTELA3.jpg);
+    background-size: cover;
+}
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: aliceblue;
+    min-height: 100px;
 }
 
 .content {
-    background-color: white;
-    border-radius: 15px;
     width: 960px;
     height: 50%;
     justify-content: space-between;
     align-items: center;
-    position: relative;
 }
 
 .content::before {
     content: "";
     position: absolute;
-    background-color: rosybrown;
     width: 40%;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .title{
     font-size: 28px;
     font-weight: bold;
     text-transform: capitalize;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .title-primary {
-    color: #fff;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .title-second  {
-    color: rosybrown;
+    color: white;
+    text-shadow: 1px 1px 1px #000;
 }
 .description {
     font-size: 14px;
     font-weight: 300;
-    line-height: 30px;    
+    line-height: 30px;  
+    text-shadow: 1px 1px 1px #000;  
 }
 
 .description-primary {
-    color: #fff;
+    color: white;
 }
 
 .description-second {
-    color: #7f8c8d;
+    color: white;
 }
 
 .btn{
@@ -84,18 +92,19 @@ body {
 
 .btn-primary:hover {
     background-color: #fff;
-    color: rosybrown;
+    
 }
 
 .btn-second {
-    background-color: rosybrown;
-    border: 1px solid  rosybrown;
+    border: 1px solid  white;
+    background-color: transparent;
 }
 
 .btn-second:hover {
 background-color: #fff;
-border: 1px solid rosybrown;
+border: 1px solid black;
 color: black;
+
 }
 
 .first-content {
@@ -104,12 +113,19 @@ color: black;
 
 .first-column{
     text-align: center;
-    flex: 1 0 auto;
+    flex: 0.5 0 auto;
     z-index: 10;
 }
 
 .second-column{
     flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media {
+    margin: 1rem 0;
 }
 
 .list-social-media {
@@ -118,17 +134,20 @@ color: black;
 }
 
 .item-social-media{
-    border: 1px solid;
+    border: 1px solid black;
     border-radius: 50%;
     width: 35px;
     height: 35px;
     line-height: 35px;
     text-align: center;
-    color: #95a5a6;
-}
+    color: black;
+    }
+.item-social-media:not(:first-child){
+    margin-left: 10px;
+}    
 
 .item-social-media a {
-    color: #95a5a6;
+    color: black;
 }
 
 .form {
@@ -141,11 +160,26 @@ color: black;
     height: 45px;
     border: none;
     background-color: #ecf0f1;
+    width: 100%;
+}
+
+.label-input {
+    background-color: #ecf0f1;
+    align-items: center;
+    display: flex;
     margin: 8px;
+}
+
+.icon-modify {
+    color: black;
+    padding: 5px;
 }
 
 .second-content {
     position: absolute;
     display: none;
 }
+
+
+
 
