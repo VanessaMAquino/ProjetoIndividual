@@ -1,0 +1,922 @@
+{
+    "campeoes": [
+        {
+            "nome": "Aatrox",
+            "funcao": "Lutador",
+            "descricao": "Aatrox é um guerreiro poderoso, capaz de desferir ataques devastadores com sua espada maciça.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Ahri",
+            "funcao": "Mago",
+            "descricao": "Ahri é uma raposa mágica com a habilidade de encantar seus inimigos e drenar suas energias vitais.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Akali",
+            "funcao": "Assassino",
+            "descricao": "Akali é uma assassina ágil e furtiva, capaz de se mover rapidamente e eliminar seus alvos com precisão letal.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Alistar",
+            "funcao": "Suporte",
+            "descricao": "Alistar é um poderoso tanque capaz de proteger seus aliados e desabilitar os inimigos com suas habilidades de controle de grupo.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Amumu",
+            "funcao": "Tanque",
+            "descricao": "Amumu é um campeão solitário e triste que espalha tristeza e desespero ao seu redor. Ele é um tanque durável, capaz de iniciar lutas e prender os inimigos.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Anivia",
+            "funcao": "Mago",
+            "descricao": "Anivia é um poderoso ser elemental que controla o gelo e o vento. Ela é capaz de criar barreiras de gelo e conjurar tempestades para derrotar seus oponentes.",
+            "dificuldade": 10
+        },
+        {
+            "nome": "Annie",
+            "funcao": "Mago",
+            "descricao": "Annie é uma criança prodígio com poderes flamejantes. Ela é capaz de invocar seu ursinho Tibbers para ajudá-la nas batalhas.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Aphelios",
+            "funcao": "Atirador",
+            "descricao": "Aphelios é um campeão de habilidades complexas, capaz de utilizar diferentes armas para causar dano à distância.",
+            "dificuldade": 10
+        },
+        {
+            "nome": "Ashe",
+            "funcao": "Atirador",
+            "descricao": "Ashe é uma arqueira habilidosa, capaz de atacar seus inimigos de longe e controlar o campo de batalha com suas flechas de gelo.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Aurelion Sol",
+            "funcao": "Mago",
+            "descricao": "Aurelion Sol é um dragão celestial capaz de controlar estrelas e orbitar ao redor delas para lançar poderosos ataques.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Azir",
+            "funcao": "Mago",
+            "descricao": "Azir é um imperador ascendente que comanda soldados de areia para dominar o campo de batalha.",
+            "dificuldade": 9
+        },
+        {
+            "nome": "Bardo",
+            "funcao": "Suporte",
+            "descricao": "Bardo é um viajante cósmico que cura, protege e coleta poderes místicos para auxiliar sua equipe.",
+            "dificuldade": 9
+        },
+        {
+            "nome": "Blitzcrank",
+            "funcao": "Suporte",
+            "descricao": "Blitzcrank é um autômato de vapor que possui um poderoso gancho e habilidades de controle de multidões.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Brand",
+            "funcao": "Mago",
+            "descricao": "Brand é um espírito em chamas que causa grande dano em área com suas habilidades incendiárias.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Braum",
+            "funcao": "Suporte",
+            "descricao": "Braum é um defensor valente, capaz de absorver dano e proteger seus aliados com seu escudo.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Caitlyn",
+            "funcao": "Atirador",
+            "descricao": "Caitlyn é uma atiradora de elite que domina as artes do rifle e mantém seus inimigos à distância.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Camille",
+            "funcao": "Lutador",
+            "descricao": "Camille é uma lutadora elegante e mortífera, especializada em entrar e eliminar alvos com precisão.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Cassiopeia",
+            "funcao": "Mago",
+            "descricao": "Cassiopeia é uma criatura serpentina que utiliza veneno para causar dano ao longo do tempo e controlar seus oponentes.",
+            "dificuldade": 10
+        },
+        {
+            "nome": "Chogath",
+            "funcao": "Tanque",
+            "descricao": "Cho'Gath é um monstro gigantesco que cresce com cada vítima, causando medo em seus inimigos e absorvendo dano.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Corki",
+            "funcao": "Atirador",
+            "descricao": "Corki é um piloto de avião ousado, equipado com armas de fogo e munição especializada.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Darius",
+            "funcao": "Lutador",
+            "descricao": "Darius é um guerreiro imponente, especializado em combates corpo a corpo e capaz de aniquilar seus inimigos com sua enorme espada.",
+            "dificuldade": 2
+        },
+        {
+            "nome": "Diana",
+            "funcao": "Lutador",
+            "descricao": "Diana é uma campeã lunar, possuindo habilidades místicas e a capacidade de empunhar a força da lua em suas lutas.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Dr. Mundo",
+            "funcao": "Tanque",
+            "descricao": "Dr. Mundo é um cientista louco com uma resistência incrível, capaz de se recuperar rapidamente e resistir a grandes quantidades de dano.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Draven",
+            "funcao": "Atirador",
+            "descricao": "Draven é um showman audacioso, habilidoso em lançar machados e obter fama através de suas performances mortais.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Ekko",
+            "funcao": "Assassino",
+            "descricao": "Ekko é um jovem gênio manipulador do tempo, capaz de voltar atrás em suas ações e desferir ataques precisos.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Elise",
+            "funcao": "Mago",
+            "descricao": "Elise é uma aranha mística que se transforma em humana, atacando de longe ou em combate corpo a corpo com suas habilidades venenosas.",
+            "dificuldade": 9
+        },
+        {
+            "nome": "Evelynn",
+            "funcao": "Assassino",
+            "descricao": "Evelynn é uma assassina sedutora, capaz de se camuflar e surpreender seus alvos com ataques furtivos.",
+            "dificuldade": 10
+        },
+        {
+            "nome": "Ezreal",
+            "funcao": "Atirador",
+            "descricao": "Ezreal é um aventureiro ousado que utiliza um místico amuleto para lançar poderosos ataques mágicos à distância.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Fiddlesticks",
+            "funcao": "Mago",
+            "descricao": "Fiddlesticks é um espantalho assustador que aterroriza seus inimigos com suas habilidades de controle e dano em área.",
+            "dificuldade": 9
+        },
+        {
+            "nome": "Fiora",
+            "funcao": "Lutador",
+            "descricao": "Fiora é uma espadachim habilidosa, capaz de desviar de ataques inimigos e golpear pontos vitais para causar danos críticos.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Fizz",
+            "funcao": "Assassino",
+            "descricao": "Fizz é um tritão astuto e ágil, capaz de se mover rapidamente e evadir dos ataques inimigos enquanto causa dano letal.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Galio",
+            "funcao": "Tanque",
+            "descricao": "Galio é um colosso de pedra animado por magia, capaz de absorver dano e proteger seus aliados com habilidades de controle de grupo.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Gangplank",
+            "funcao": "Lutador",
+            "descricao": "Gangplank é um capitão pirata que domina os mares e causa estragos com seu canhão e habilidades traiçoeiras.",
+            "dificuldade": 9
+        },
+        {
+            "nome": "Garen",
+            "funcao": "Lutador",
+            "descricao": "Garen é um poderoso guerreiro demaciano, especializado em combate corpo a corpo e conhecido por sua durabilidade.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Gnar",
+            "funcao": "Lutador",
+            "descricao": "Gnar é um yordle selvagem que se transforma em um gigante furioso, alternando entre ataques rápidos e poderosos golpes.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Gragas",
+            "funcao": "Mago",
+            "descricao": "Gragas é um mestre cervejeiro com uma barriga repleta de poder mágico, capaz de lançar barris explosivos e causar caos em batalhas.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Graves",
+            "funcao": "Atirador",
+            "descricao": "Graves é um pistoleiro obstinado, conhecido por sua precisão letal e estilo único de combate.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Hecarim",
+            "funcao": "Lutador",
+            "descricao": "Hecarim é um cavaleiro das sombras que cavalga com terror, trazendo medo e destruição aos seus inimigos.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Heimerdinger",
+            "funcao": "Mago",
+            "descricao": "Heimerdinger é um inventor brilhante, capaz de criar torres e dispositivos poderosos para controlar o campo de batalha.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Illaoi",
+            "funcao": "Lutador",
+            "descricao": "Illaoi é uma sacerdotisa kraken, capaz de invocar tentáculos e testar a fé de seus oponentes em combate corpo a corpo.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Irelia",
+            "funcao": "Lutador",
+            "descricao": "Irelia é uma dançarina das lâminas, habilidosa em cortar seus inimigos rapidamente e desviar de seus ataques.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Ivern",
+            "funcao": "Suporte",
+            "descricao": "Ivern é um protetor da natureza, capaz de criar e controlar arbustos para auxiliar sua equipe e sabotar seus inimigos.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Janna",
+            "funcao": "Suporte",
+            "descricao": "Janna é uma tempestade viva, capaz de controlar os ventos e proteger sua equipe com habilidades de suporte.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Jarvan IV",
+            "funcao": "Lutador",
+            "descricao": "Jarvan IV é um príncipe guerreiro, especializado em combates corpo a corpo e em proteger seus aliados com sua bandeira e lança.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Jax",
+            "funcao": "Lutador",
+            "descricao": "Jax é um mestre da luta com arma, capaz de causar danos devastadores com seu bastão e evadir dos ataques inimigos.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Jayce",
+            "funcao": "Lutador",
+            "descricao": "Jayce é um defensor de Piltover, capaz de alternar entre armas de longo alcance e corpo a corpo para dominar seus oponentes.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Jhin",
+            "funcao": "Atirador",
+            "descricao": "Jhin é um atirador metódico, especializado em acertar tiros precisos e causar danos massivos com suas habilidades teatrais.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Jinx",
+            "funcao": "Atirador",
+            "descricao": "Jinx é uma maníaca por destruição, capaz de disparar rajadas de tiros e causar caos no campo de batalha.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Kai'Sa",
+            "funcao": "Atirador",
+            "descricao": "Kai'Sa é uma sobrevivente do Vazio, capaz de se mover rapidamente e eliminar seus inimigos com ataques rápidos e precisos.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Kalista",
+            "funcao": "Atirador",
+            "descricao": "Kalista é uma vingadora traiçoeira, capaz de conjurar lanças espirituais e selar alianças com seus aliados.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Karma",
+            "funcao": "Mago",
+            "descricao": "Karma é uma iluminada dualista, capaz de conjurar poderosas energias espirituais para proteger seus aliados ou prejudicar seus inimigos.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Karthus",
+            "funcao": "Mago",
+            "descricao": "Karthus é um lich nefasto, capaz de lançar magias mortais à distância e assombrar seus inimigos com seu poder sombrio.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Kassadin",
+            "funcao": "Assassino",
+            "descricao": "Kassadin é um caçador do vazio, capaz de se mover rapidamente e anular a magia de seus oponentes.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Katarina",
+            "funcao": "Assassino",
+            "descricao": "Katarina é uma assassina sinistra, especializada em eliminar rapidamente seus inimigos com suas lâminas afiadas e habilidades ágeis.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Kayle",
+            "funcao": "Lutador",
+            "descricao": "Kayle é uma justa celestial, capaz de canalizar o poder divino para proteger e punir aqueles que estão do seu lado errado da justiça.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Kayn",
+            "funcao": "Lutador",
+            "descricao": "Kayn é um ceifador sombrio, capaz de se transformar em uma forma de sombra ou uma forma de pesadelo para aniquilar seus inimigos.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Kennen",
+            "funcao": "Mago",
+            "descricao": "Kennen é um yordle ágil, capaz de conjurar trovões e lançar poderosos ataques elétricos contra seus inimigos.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Kha'Zix",
+            "funcao": "Assassino",
+            "descricao": "Kha'Zix é um predador vazio, capaz de evoluir e se adaptar para caçar suas presas e evadir de seus inimigos.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Kindred",
+            "funcao": "Atirador",
+            "descricao": "Kindred é um duo divino, composto por um lobo e um cordeiro, capaz de marcar e caçar suas presas com precisão implacável.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Kled",
+            "funcao": "Lutador",
+            "descricao": "Kled é um cavaleiro destemido, capaz de se lançar em batalhas frenéticas montado em sua leal criatura Skarl.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Kog'Maw",
+            "funcao": "Atirador",
+            "descricao": "Kog'Maw é um devorador voraz, capaz de cuspir ácido e lançar explosões bio-arcânicas contra seus inimigos.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "LeBlanc",
+            "funcao": "Assassino",
+            "descricao": "LeBlanc é uma enganadora mestra, capaz de confundir seus inimigos com ilusões e desaparecer rapidamente do campo de batalha.",
+            "dificuldade": 9
+        },
+        {
+            "nome": "Lee Sin",
+            "funcao": "Lutador",
+            "descricao": "Lee Sin é um monge cego, habilidoso nas artes marciais e capaz de executar acrobacias impressionantes.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Leona",
+            "funcao": "Tanque",
+            "descricao": "Leona é uma defensora do sol, capaz de mergulhar nas linhas inimigas e proteger seus aliados com sua armadura radiante.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Lillia",
+            "funcao": "Lutador",
+            "descricao": "Lillia é uma sonhadora melancólica, capaz de causar dano ao longo do tempo e controlar o campo de batalha com suas habilidades únicas.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Lissandra",
+            "funcao": "Mago",
+            "descricao": "Lissandra é uma bruxa glacial, capaz de manipular o gelo e prender seus inimigos em uma eterna escuridão congelante.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Lucian",
+            "funcao": "Atirador",
+            "descricao": "Lucian é um caçador implacável, especializado em eliminar criaturas sobrenaturais e caçar as sombras que mataram sua esposa.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Lulu",
+            "funcao": "Suporte",
+            "descricao": "Lulu é uma feiticeira yordle, capaz de conceder poderes mágicos e proteção aos seus aliados, além de transformar seus inimigos em criaturas inofensivas.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Lux",
+            "funcao": "Mago",
+            "descricao": "Lux é uma dama da luz, capaz de controlar a magia luminosa e desferir rajadas brilhantes contra seus oponentes.",
+            "dificulde": 5
+        },
+        {
+            "nome": "Malphite",
+            "funcao": "Tanque",
+            "descricao": "Malphite é um fragmento vivente de pedra, capaz de resistir a ataques e desferir golpes poderosos com seu corpo rochoso.",
+            "dificuldade": 2
+        },
+        {
+            "nome": "Malzahar",
+            "funcao": "Mago",
+            "descricao": "Malzahar é um profeta do vazio, capaz de invocar criaturas do abismo e subjugar seus inimigos com suas habilidades sombrias.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Maokai",
+            "funcao": "Tanque",
+            "descricao": "Maokai é um espírito da floresta, capaz de controlar a natureza e prender seus inimigos com suas raízes e galhos.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Master Yi",
+            "funcao": "Lutador",
+            "descricao": "Master Yi é um espadachim wuju, especializado em artes marciais e capaz de desferir ataques rápidos e precisos.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Miss Fortune",
+            "funcao": "Atirador",
+            "descricao": "Miss Fortune é uma pirata audaciosa, capaz de disparar rajadas de tiros e desferir ataques críticos devastadores.",
+            "dificuldade": 1
+        },
+        {
+            "nome": "Mordekaiser",
+            "funcao": "Lutador",
+            "descricao": "Mordekaiser é um senhor da morte, capaz de arrancar almas de seus inimigos e drenar sua força vital.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Morgana",
+            "funcao": "Mago",
+            "descricao": "Morgana é uma caída angélica, capaz de conjurar magias negras e prender seus inimigos em correntes de tormento.",
+            "dificuldade": 1
+        },
+        {
+            "nome": "Nami",
+            "funcao": "Suporte",
+            "descricao": "Nami é uma marinheira encantadora, capaz de conjurar ondas e controlar as marés para auxiliar sua equipe e enfraquecer seus inimigos.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Nasus",
+            "funcao": "Lutador",
+            "descricao": "Nasus é um curador com a habilidade de acumular poder ao longo do tempo, tornando-se uma ameaça imparável no final do jogo.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Nautilus",
+            "funcao": "Tanque",
+            "descricao": "Nautilus é um gigante do oceano, capaz de prender seus inimigos em âncoras e proteger sua equipe com sua resistência imensa.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Neeko",
+            "funcao": "Mago",
+            "descricao": "Neeko é uma metamorfa astuta, capaz de se transformar em qualquer campeão e confundir seus inimigos com suas ilusões.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Nidalee",
+            "funcao": "Assassino",
+            "descricao": "Nidalee é uma caçadora feroz, capaz de se transformar em uma pantera e lançar ataques rápidos e mortais contra seus inimigos.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Nocturne",
+            "funcao": "Assassino",
+            "descricao": "Nocturne é um pesadelo vivo, capaz de mergulhar o campo de batalha na escuridão e caçar seus inimigos com suas lâminas sombrias.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Nunu & Willump",
+            "funcao": "Lutador",
+            "descricao": "Nunu é um garoto com seu yeti Willump, capazes de espalhar o caos e controlar a neve para subjugar seus inimigos.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Olaf",
+            "funcao": "Lutador",
+            "descricao": "Olaf é um bárbaro viking, capaz de se tornar imparável durante o combate e atacar ferozmente seus inimigos.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Orianna",
+            "funcao": "Mago",
+            "descricao": "Orianna é uma autômata mecânica, capaz de controlar um esfera flutuante para lançar ataques mágicos e proteger seus aliados.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Ornn",
+            "funcao": "Tanque",
+            "descricao": "Ornn é um deus ancestral, capaz de forjar itens poderosos e controlar o fogo e a montanha para proteger seus aliados.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Pantheon",
+            "funcao": "Lutador",
+            "descricao": "Pantheon é um guerreiro celestial, especializado em combates corpo a corpo e capaz de desferir golpes poderosos com sua lança.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Poppy",
+            "funcao": "Lutador",
+            "descricao": "Poppy é uma guardiã do martelo, capaz de desferir golpes poderosos e proteger seus aliados com sua determinação inabalável.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Pyke",
+            "funcao": "Suporte",
+            "descricao": "Pyke é um assassino subaquático, capaz de se movimentar rapidamente e eliminar seus alvos com suas habilidades sombrias.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Qiyana",
+            "funcao": "Assassino",
+            "descricao": "Qiyana é uma imperatriz do elemento, capaz de controlar e manipular a natureza ao seu redor para derrotar seus inimigos.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Quinn",
+            "funcao": "Atirador",
+            "descricao": "Quinn é uma cavaleira alada, capaz de voar pelos céus e abater seus inimigos com sua destreza e seu fiel falcão, Valor.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Rakan",
+            "funcao": "Suporte",
+            "descricao": "Rakan é um encantador rebelde, capaz de dançar pelo campo de batalha e auxiliar seus aliados com suas habilidades de cura e controle de multidões.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Rammus",
+            "funcao": "Tanque",
+            "descricao": "Rammus é um armadura viva, capaz de enrolar-se em uma bola e rolar pelo campo de batalha, causando dano e provocando seus inimigos.",
+            "dificuldade": 1
+        },
+        {
+            "nome": "Rek'Sai",
+            "funcao": "Lutador",
+            "descricao": "Rek'Sai é uma predadora do vazio, capaz de se mover através do subsolo e emboscar seus inimigos com ferocidade.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Renekton",
+            "funcao": "Lutador",
+            "descricao": "Renekton é um crocodilo sanguinário, capaz de desferir golpes brutais e dilacerar seus inimigos com sua fúria implacável.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Rengar",
+            "funcao": "Assassino",
+            "descricao": "Rengar é um caçador feroz, capaz de se camuflar e caçar suas presas com garras afiadas e saltos rápidos.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Riven",
+            "funcao": "Lutador",
+            "descricao": "Riven é uma exilada com uma espada rúnica, capaz de executar combos rápidos e devastadores para derrotar seus oponentes.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Rumble",
+            "funcao": "Mago",
+            "descricao": "Rumble é um inventor yordle, capaz de pilotar um mecha equipado com lança-chamas e outras armas para incendiar seus inimigos.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Ryze",
+            "funcao": "Mago",
+            "descricao": "Ryze é um feiticeiro rúnico, capaz de lançar poderosos feitiços arcanos e desencadear sua magia ancestral contra seus oponentes.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Samira",
+            "funcao": "Atirador",
+            "descricao": "Samira é uma mercenária habilidosa, capaz de combinar acrobacias com armas de fogo e lâminas para dominar seus inimigos.",
+            "dificuldade": 6
+        },
+        {
+            "nome": "Sejuani",
+            "funcao": "Tanque",
+            "descricao": "Sejuani é uma guerreira de gelo, capaz de montar em seu javali gigante e liderar as investidas contra seus inimigos com sua força brutal.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Senna",
+            "funcao": "Atirador",
+            "descricao": "Senna é uma atiradora sombria, capaz de disparar rajadas de luz e purificar a alma de seus aliados, além de aprisionar a dos inimigos.",
+            "dificuldade": 7
+        },
+        {
+            "nome": "Seraphine",
+            "funcao": "Mago",
+            "descricao": "Seraphine é uma estrela do pop com poderes musicais, capaz de curar e fortalecer seus aliados com sua música e controlar o campo de batalha com suas habilidades sonoras.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Sett",
+            "funcao": "Lutador",
+            "descricao": "Sett é um lutador de pit, capaz de desferir socos poderosos e lançar seus oponentes pelos ares com sua força bruta.",
+            "dificuldade": 2
+        },
+        {
+            "nome": "Shaco",
+            "funcao": "Assassino",
+            "descricao": "Shaco é um palhaço demoníaco, capaz de criar ilusões e emboscar seus inimigos com armadilhas mortais.",
+            "dificuldade": 9
+        },
+        {
+            "nome": "Shen",
+            "funcao": "Tanque",
+            "descricao": "Shen é um ninja equilibrado, capaz de teleportar-se e proteger seus aliados com sua habilidade de bloquear ataques e causar dano aos inimigos.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Shyvana",
+            "funcao": "Lutador",
+            "descricao": "Shyvana é uma meio-dragão, capaz de se transformar em um dragão poderoso e desferir ataques flamejantes contra seus inimigos.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Singed",
+            "funcao": "Lutador",
+            "descricao": "Singed é um cientista louco, capaz de espalhar gases tóxicos e deixar um rastro de veneno por onde passa, envenenando seus inimigos.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Sion",
+            "funcao": "Tanque",
+            "descricao": "Sion é um morto-vivo gigante, capaz de avançar e esmagar seus inimigos com seu tamanho e poder esmagadores.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Sivir",
+            "funcao": "Atirador",
+            "descricao": "Sivir é uma mercenária habilidosa, capaz de atirar projéteis mortais e proteger-se com sua lâmina boomerang, Ricochet.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Skarner",
+            "funcao": "Lutador",
+            "descricao": "Skarner é um escorpião cristalino, capaz de controlar cristais e arrastar seus inimigos para a morte com suas garras afiadas.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Sona",
+            "funcao": "Suporte",
+            "descricao": "Sona é uma musa etérea, capaz de lançar harmonias mágicas e fortalecer seus aliados com suas notas musicais.",
+            "dificuldade": 4
+        },
+        {
+            "nome": "Soraka",
+            "funcao": "Suporte",
+            "descricao": "Soraka é uma curandeira celestial, capaz de curar ferimentos e trazer vida a seus aliados, além de lançar estrelas cadentes para punir seus inimigos.",
+            "dificuldade": 3
+        },
+        {
+            "nome": "Swain",
+            "funcao": "Mago",
+            "descricao": "Swain é um estrategista tático, capaz de controlar corvos e arrancar as almas de seus inimigos para fortalecer-se e controlar o campo de batalha.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Sylas",
+            "funcao": "Lutador",
+            "descricao": "Sylas é um revolucionário mágico, capaz de roubar as habilidades de seus oponentes e usá-las contra eles com sua corrente mágica.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Syndra",
+            "funcao": "Mago",
+            "descricao": "Syndra é uma maga obscura, capaz de manipular esferas flutuantes e lançar explosões de energia para destruir seus inimigos.",
+            "dificuldade": 8
+        },
+        {
+            "nome": "Tahm Kench",
+            "funcao": "Suporte",
+            "descricao": "Tahm Kench é um demônio do rio, capaz de engolir seus inimigos e proteger seus aliados com sua pele impenetrável e seu poderoso estômago.",
+            "dificuldade": 5
+        },
+        {
+            "nome": "Taliyah",
+            "funcao": "Mago",
+            "descricao": "Taliyah é uma controladora de terra, capaz de manipular rochas e criar terremotos para deslocar-se rapidamente e controlar o campo de batalha.",
+            "dificuldade": 5
+          },
+          {
+            "nome": "Talon",
+            "funcao": "Assassino",
+            "descricao": "Talon é um assassino sombrio, capaz de se movimentar rapidamente pelas sombras e atacar seus inimigos com lâminas afiadas.",
+            "dificuldade": 7
+          },
+          {
+            "nome": "Taric",
+            "funcao": "Suporte",
+            "descricao": "Taric é um protetor das estrelas, capaz de fortalecer seus aliados com sua armadura radiante e curar suas feridas com sua luz celestial.",
+            "dificuldade": 3
+          },
+          {
+            "nome": "Teemo",
+            "funcao": "Mago",
+            "descricao": "Teemo é um yordle trapaceiro, capaz de espalhar armadilhas venenosas e disparar dardos tóxicos para envenenar seus inimigos.",
+            "dificuldade": 6
+          },
+          {
+            "nome": "Thresh",
+            "funcao": "Suporte",
+            "descricao": "Thresh é um guardião das almas, capaz de prender seus inimigos em suas correntes e manipular a essência vital deles.",
+            "dificuldade": 7
+          },
+          {
+            "nome": "Tristana",
+            "funcao": "Atirador",
+            "descricao": "Tristana é uma artilheira yordle, capaz de saltar pelos ares e disparar rajadas explosivas contra seus inimigos.",
+            "dificuldade": 4
+          },
+          {
+            "nome": "Trundle",
+            "funcao": "Lutador",
+            "descricao": "Trundle é um troll congelante, capaz de infectar o solo com seu gelo maligno e roubar a força de seus inimigos.",
+            "dificuldade": 5
+          },
+          {
+            "nome": "Tryndamere",
+            "funcao": "Lutador",
+            "descricao": "Tryndamere é um bárbaro enfurecido, capaz de golpear seus inimigos com sua espada gigante e se tornar invulnerável durante momentos de fúria.",
+            "dificuldade": 5
+          },
+          {
+            "nome": "Twisted Fate",
+            "funcao": "Mago",
+            "descricao": "Twisted Fate é um mestre das cartas, capaz de manipular o destino e lançar feitiços de longa distância para derrotar seus oponentes.",
+            "dificuldade": 9
+          },
+          {
+            "nome": "Twitch",
+            "funcao": "Atirador",
+            "descricao": "Twitch é um rato mutante, capaz de se camuflar e surpreender seus inimigos com suas toxinas venenosas e ataques furtivos.",
+            "dificuldade": 6
+          },
+          {
+            "nome": "Udyr",
+            "funcao": "Lutador",
+            "descricao": "Udyr é um espírito animal, capaz de se transformar em diferentes formas e canalizar os poderes da natureza em combate.",
+            "dificuldade": 7
+          },
+          {
+            "nome": "Urgot",
+            "funcao": "Lutador",
+            "descricao": "Urgot é um monstro cyborg, capaz de atirar arpões e prender seus inimigos em suas pernas mecânicas para aniquilá-los.",
+            "dificuldade": 8
+          },
+          {
+            "nome": "Varus",
+            "funcao": "Atirador",
+            "descricao": "Varus é um arqueiro sombrio, capaz de disparar flechas perfurantes e corrompidas para causar dano em área e prender seus inimigos.",
+            "dificuldade": 2
+          },
+          {
+            "nome": "Vayne",
+            "funcao": "Atirador",
+            "descricao": "Vayne é uma caçadora noturna, capaz de perseguir e eliminar os mais perigosos inimigos com suas habilidades de combate e seus ataques letais.",
+            "dificuldade": 8
+          },
+          {
+            "nome": "Veigar",
+            "funcao": "Mago",
+            "descricao": "Veigar é um mestre do caos, capaz de absorver o poder dos outros e lançar explosões de energia mágica para destruir seus inimigos.",
+            "dificuldade": 7
+          },
+          {
+            "nome": "Vel'Koz",
+            "funcao": "Mago",
+            "descricao": "Vel'Koz é uma entidade do vazio, capaz de disparar raios laser e desintegrar seus inimigos com sua poderosa magia cósmica.",
+            "dificuldade": 8
+          },
+          {
+            "nome": "Vi",
+            "funcao": "Lutador",
+            "descricao": "Vi é uma policial de Piltover, capaz de lançar punhos poderosos e atacar seus inimigos com suas luvas mecânicas gigantes.",
+            "dificuldade": 4
+          },
+          {
+            "nome": "Viego",
+            "funcao": "Lutador",
+            "descricao": "Viego é o Rei Destruído, capaz de possuir corpos e usar suas habilidades espectrais para eliminar seus inimigos e obter poder sobre o reino mortal.",
+            "dificuldade": 4
+          },
+          {
+            "nome": "Viktor",
+            "funcao": "Mago",
+            "descricao": "Viktor é um cientista do caos, capaz de controlar o poder do hexcore e lançar feitiços poderosos para dominar o campo de batalha.",
+            "dificuldade": 9
+          },
+          {
+            "nome": "Vladimir",
+            "funcao": "Mago",
+            "descricao": "Vladimir é um sanguinário vampiro, capaz de drenar a vida de seus inimigos e manipular o sangue para fortalecer-se e curar ferimentos.",
+            "dificuldade": 7
+          },
+          {
+            "nome": "Volibear",
+            "funcao": "Lutador",
+            "descricao": "Volibear é um espírito ancestral, capaz de conjurar raios e se transformar em um urso imponente para devastar seus inimigos.",
+            "dificuldade": 3
+          },
+          {
+            "nome": "Warwick",
+            "funcao": "Lutador",
+            "descricao": "Warwick é um caçador sanguinário, capaz de perseguir e dilacerar suas presas com sua velocidade e força sobrenaturais.",
+            "dificuldade": 3
+          },
+          {
+            "nome": "Wukong",
+            "funcao": "Lutador",
+            "descricao": "Wukong é um macaco guerreiro, capaz de enganar seus inimigos com ilusões e desferir golpes poderosos com seu bastão mágico.",
+            "dificuldade": 3
+          },
+          {
+            "nome": "Xayah",
+            "funcao": "Atirador",
+            "descricao": "Xayah é uma rebelde vástaya, capaz de lançar penas mortais e usar sua agilidade para atacar múltiplos inimigos com suas lâminas letais.",
+            "dificuldade": 5
+          },
+          {
+            "nome": "Xerath",
+            "funcao": "Mago",
+            "descricao": "Xerath é um ser de energia arcana, capaz de canalizar explosões de poder mágico e lançar raios devastadores contra seus inimigos.",
+            "dificuldade": 8
+          },
+          {
+            "nome": "Xin Zhao",
+            "funcao": "Lutador",
+            "descricao": "Xin Zhao é um guerreiro de Demacia, capaz de derrubar seus inimigos com sua lança e proteger-se com sua habilidade de defesa.",
+            "dificuldade": 2
+          },
+          {
+            "nome": "Yasuo",
+            "funcao": "Lutador",
+            "descricao": "Yasuo é um samurai sem mestre, capaz de manejar uma lâmina com maestria e usar o vento para desviar de ataques e atacar seus inimigos.",
+            "dificuldade": 10
+          },
+          {
+            "nome": "Yone",
+            "funcao": "Lutador",
+            "descricao": "Yone é um espadachim caído, irmão de Yasuo, capaz de combinar sua espada e seu poder espiritual para enfrentar e punir os espíritos malignos.",
+            "dificuldade": 8
+          },
+          {
+            "nome": "Yorick",
+            "funcao": "Lutador",
+            "descricao": "Yorick é um coveiro sombrio, capaz de invocar e controlar os espíritos dos mortos para atacar seus inimigos e fortalecer-se em batalha.",
+            "dificuldade": 6
+          },
+          {
+            "nome": "Yuumi",
+            "funcao": "Suporte",
+            "descricao": "Yuumi é uma gata mágica, capaz de se unir a um aliado e lançar feitiços enquanto está ancorada, protegendo e fortalecendo seu parceiro de equipe.",
+            "dificuldade": 2
+          },
+          {
+            "nome": "Zac",
+            "funcao": "Tanque",
+            "descricao": "Zac é um amontoado de lodo, capaz de se esticar, se dividir e se regenerar para absorver o dano e perturbar seus inimigos.",
+            "dificuldade": 3
+          },
+          {
+            "nome": "Zed",
+            "funcao": "Assassino",
+            "descricao": "Zed é um mestre das sombras, capaz de se teletransportar, lançar shurikens e eliminar seus inimigos com técnicas mortais.",
+            "dificuldade": 7
+          },
+          {
+            "nome": "Ziggs",
+            "funcao": "Mago",
+            "descricao": "Ziggs é um especialista em demolição, capaz de lançar bombas explosivas e minas terrestres para causar destruição em área.",
+            "dificuldade": 4
+          },
+          {
+            "nome": "Zilean",
+            "funcao": "Suporte",
+            "descricao": "Zilean é um guardião do tempo, capaz de manipular o fluxo temporal para acelerar aliados e retardar inimigos, além de reviver aliados caídos.",
+            "dificuldade": 6
+          },
+          {
+            "nome": "Zoe",
+            "funcao": "Mago",
+            "descricao": "Zoe é a Aspecto do Crepúsculo, capaz de lançar feitiços com seu cajado estelar e utilizar bolhas e portais mágicos para confundir seus inimigos.",
+            "dificuldade": 5
+          },
+          {
+            "nome": "Zyra",
+            "funcao": "Mago",
+            "descricao": "Zyra é uma planta vingativa, capaz de criar vinhas e espinhos letais para controlar o campo de batalha e prender seus inimigos.",
+            "dificuldade": 7
+          }
+        ]
+      }

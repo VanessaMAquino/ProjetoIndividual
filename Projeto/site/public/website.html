@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOLTECA</title>
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css">
+    <link rel="stylesheet" href="/site/public/estilos/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo"><img class="logar" src="/site/public/img/LOLTECA.png" alt=""></h2>
+        <nav class="navigation">
+            <a href="#">Jogo</a>
+            <a href="#">Quiz</a>
+            <a href="#">Formulário</a>
+            <a href="#">Classificação</a>
+            <button class="bntLogin-popup">Entrar</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <i class="fa-solid fa-xmark"></i>
+        </span>
+
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <i class="fa-solid fa-envelope icon"></i><span class="icon"></span>
+                    <input type="email" required id="email_login">
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <i class="fa-solid fa-lock icon"></i>
+                    <input type="password" required id="senha_login">
+                    <label>Senha</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox" id="input_checkbox">
+                        Manter-se Conectado!</label>
+                    <a href="#"> Esqueceu sua senha?</a>
+                </div>
+                <button type="submit" class="bnt">Login</button>
+                <div class="login-register">
+                    <p>Não possui cadastro?<a href="#" class="register-link">Cadastrar</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Cadastro</h2>
+            <form action="#">
+                <div class="input-box">
+                    <i class="fa-solid fa-envelope icon"></i><span class="icon"></span>
+                    <input type="email" required id="email_cadastro">
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><i class="fa-solid fa-user"></i></span>
+                    <input type="text" required>
+                    <label>Usuário</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"></span>
+                    <i class="fa-solid fa-lock icon"></i><input type="password" required>
+                    <label>Senha</label>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Concordo com os termos e condições</label>
+                    <a href="#"></a>
+                </div>
+                <button ontype="submit" class="bnt" onclick="Cadastrar()">Cadastrar</button>
+                <div class="login-register">
+                    <p>Já possui conta?<a href="#" class="login-link"> Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">LOLTECA</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Cadastre-se para saber sua classificação de conhecimento sobre o jogo.</h2>
+                    <button class="conteudo-principal-botao">Cadastre-se</button>
+            </div>
+        </section>
+
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">Sobre o jogo</h3>
+            <p class="paragrafo">O objetivo principal do League of Legends é destruir o Nexus inimigo e vencer a partida.</p>
+            <p class="paragrafo">O jogo acontece no mapa Summoner's Rift, que possui três rotas principais e uma selva com monstros neutros.</p>
+            <p class="paragrafo">Descubra o quanto você sabe sobre o jogo se cadastrando e respondendo os Quiz</p>
+        </section>
+    </main>
+   
+
+
+    <script src="/site/public/js/script.js"></script>
+</body>
+
+</html>
